@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <title>AlIbAbA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Navbar</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                 
+                    <div class="filter-buttons">
+                        <button onclick="filterProducts('all')">All Products</button>
+                        <button onclick="filterProducts('Category A')">Category A</button>
+                        <button onclick="filterProducts('Category B')">Category B</button>
+    
+                    </div>
+                    
+                        <div class="sort-buttons">
+                        <button onclick="sortProducts('price')">Sort by Price</button>
+                        <button onclick="sortProducts('title')">Sort by Title</button>
+    
+                    </div>
+
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <div class="topnav">
+        <a class="active" href="#">Welcome to our site</a>
+    
+</div>
+
+        
+    </div>
+    <div style="padding-inline-start: 16px;">
+        <section id="section">
+            <div class="row">
+                <div class="column">
+                    <div class="card">
+                        <center><img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRTqXEChPN8VUfG_tZTmmgDPCNY8PfXhh8twh_Dc3qR1xik21ecgwzyP51Or0x47svKl7o9kJrdQoDtEbej44jhIvUN7UPXAa9NGJTAOfcvSKY8OA2Xhn9Z&usqp=CAE" class="thumbnail"></center>
+                        <h3> smartwatch </h3>
+                        <h4> Rs.3,500 </h4>
+                        <h5>Introducing the Boat Wave Electra Cyan: a stylish and durable smartwatch with a big 1.81" HD display. Seamlessly make calls, choose from 20 inbuilt watch faces, enjoy 100+ </h5>
+
+                    </div>
+
+                </div>
+
+            </div>
+            
+            <div class="row">
+                <div class="column">
+                    <div class="card">
+                        <center><img
+                                src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSv3oOmBGq_xNmy96AAOQQAwkJVxX0v8mTguAEwZm18Xd0b8QBYpntILggxxXIvBbXL49TbAPTVAAYcShhvWFMhgs9Q0z2eLr4EHb33hQl7&usqp=CAE"
+                                class="thumbnail"></center>
+                        <h3> smart phones </h3>
+                        <h4>  Rs.15,000 </h4>
+                        <h5> Enjoy A Seamless Experience With Multitude Of Benefits On This Realme C53 Smartphone. Take Stunning Photoshoots With The 108 Mp Camera And Take Amazing Photos In Pixel Mode</h5>
+                         
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="column">
+                        <div class="card">
+                            <center><img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSoyI9bWtXMPxq1DUM0wtFH_sp-X7KKmWTsPsbI9DkwAoz0fkZflpKjVxgZfNgHXG1_6zu8hWOy7bm_d7Gs_mKqelr9BQO-b_8HjnZdYjo&usqp=CAE"
+                                    class="thumbnail"></center>
+                            <h3> Earbuds </h3>
+                            <h4>  Rs.2,000 </h4>
+                            <h5>Your partner for every vibe, Airdopes 161 earbuds pumps uninterrupted music with its massive playback of upto 17 hour. And when you run out of battery, you can enjoy 180 mins</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="column">
+                        <div class="card">
+                            <center><img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRfVd9TmPyek0D1HDE7yG-shguUQOOURNUYHQzmANRRbr0rtSIxAIEuOQeyc29uFLDqfsvwbc23hkkh_wUVqNUcAWQxmTG5Inzg2dkazCuUBBuA_gdBeD62&usqp=CAE"
+                                    class="thumbnail"></center>
+                            <h3> speakers </h3>
+                            <h4> Rs.5,000</h4>
+                            <h5> If you are a gamer who wants to uplift their gaming experience, then this Zeb-Warrior speaker from Zebronics is a dream come true for you! It comes with a modern design </h5>
+
+                        </div>
+
+                    </div>
+
+                </div> 
+        </section>
+    
+    <script src="script.js"></script>
+</body>
+</html>
